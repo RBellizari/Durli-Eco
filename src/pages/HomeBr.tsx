@@ -76,7 +76,7 @@ const HomeBr: FunctionComponent = () => {
             />
           </div>
         </div>
-        <div className="my-0 mx-[!important] absolute top-[360px] left-[164px] overflow-hidden flex flex-col items-start justify-start gap-[16px] z-[5] text-[16.52px]">
+        <div className="my-0 mx-[!important] absolute top-[460px] left-[164px] overflow-hidden flex flex-col items-start justify-start gap-[16px] z-[5] text-[16.52px]">
           <div className="flex flex-row items-center justify-center text-[50px] text-steelblue-100">
             <b className="relative">UniCode</b>
           </div>
@@ -105,27 +105,7 @@ const HomeBr: FunctionComponent = () => {
               conformidade socioambiental e origem deste couro específico.
             </div>
           </div>
-          <div className="overflow-hidden flex flex-row items-start justify-start gap-[16px]">
-            <input
-              className="font-medium font-montserrat text-[22.95px] bg-[transparent] rounded-smi box-border w-[236px] h-[58px] flex flex-row items-start justify-start p-4 border-[1px] border-solid border-darkslateblue"
-              placeholder="Número Invoice"
-              type="text"
-            />
-            <button className="cursor-pointer [border:none] py-[22px] px-3 bg-[transparent] rounded-smi [background:linear-gradient(90deg,_#005693,_#28348a_49%,_#005493)] h-[58px] flex flex-row items-center justify-center box-border hover:bg-white-100">
-              <div className="relative text-3xl-4 font-medium font-montserrat text-white-200 text-left">
-                OK
-              </div>
-            </button>
-          </div>
-          <div className="w-[526px] flex flex-row items-center justify-center">
-            <div className="relative leading-[25px] font-medium inline-block w-[511px] shrink-0">
-              Ao consultar o número da Nota Fiscal de um lote de couros, você
-              terá acesso a informações detalhadas sobre cada couro no lote,
-              incluindo o UniCode, rastreabilidade, conformidade socioambiental
-              e origem.
-            </div>
-          </div>
-        </div>
+         </div>
         <div className="my-0 mx-[!important] absolute top-[62px] left-[957px] overflow-hidden flex flex-row items-start justify-start gap-[16px] z-[6]">
           <button className="cursor-pointer [border:none] p-4 bg-[transparent] rounded-smi w-36 h-[52px] flex flex-row items-center justify-center box-border">
             <div className="relative text-[23.59px] font-medium font-montserrat text-white-200 text-left">
