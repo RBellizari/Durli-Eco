@@ -79,10 +79,9 @@ const HomeBr: FunctionComponent = () => {
           <div className="flex flex-row items-center justify-center text-[50px] text-steelblue-100">
             <b className="relative">UniCode</b>
           </div>
-          <div className="flex flex-row items-center justify-center text-[27.54px] text-deepskyblue">
+          <div className="flex flex-row items-center justify-center text-[27.54px] text-deepskyblue  w-[550px]">
             <b className="relative">
-              <p className="m-0">{`Descubra a origem exata de cada `}</p>
-              <p className="m-0">couro e siga toda a sua jornada.</p>
+              <p className="m-0">{t(`texts.text5`)}</p>
             </b>
           </div>
           <div className="overflow-hidden flex flex-row items-start justify-start gap-[16px]">
@@ -99,9 +98,7 @@ const HomeBr: FunctionComponent = () => {
           </div>
           <div className="w-[568px] flex flex-row items-center justify-center">
             <div className="flex-1 relative leading-[25px] font-medium">
-              Ao consultar o UniCode Durli estampado em seu couro, você terá
-              acesso a todas as informações relacionadas à rastreabilidade,
-              conformidade socioambiental e origem deste couro específico.
+            {t(`texts.text6`)}
             </div>
           </div>
          </div>
@@ -151,28 +148,22 @@ const HomeBr: FunctionComponent = () => {
       <div className="[background:linear-gradient(0deg,_#005693,_#0072b2_27%,_#008acc_55%,_#0098dc_80%,_#009ee2)] w-[1920px] flex flex-col items-center justify-center text-16xl text-white-200">
         <div className="self-stretch overflow-hidden flex flex-row items-center justify-center pt-16 px-0 pb-40 gap-[160px]">
           <div className="flex flex-col items-start justify-start gap-[32px]">
-            <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-row items-center justify-center w-[500px]">
               <b className="relative">
-                <p className="m-0">Originação Responsável de</p>
-                <p className="m-0">Matéria-Prima</p>
+                <p className="m-0"> {t(`texts.text7`)}</p>
               </b>
             </div>
-            <div className="flex flex-row items-center justify-center text-lg">
+            <div className="flex flex-row items-center justify-center text-lg w-[500px]">
               <div className="relative">
                 <p className="m-0 font-medium">
-                  Ao seguir a nossa Política de Compra Responsável de
-                </p>
-                <p className="m-0">
-                  <b>{`Matéria-Prima, adquirimos couros somente de áreas em `}</b>
-                </p>
-                <p className="m-0 font-medium">{`conformidade socioambiental. `}</p>
+                {t(`texts.text8`)}</p>
               </div>
             </div>
           </div>
           <div className="overflow-hidden flex flex-col items-start justify-start gap-[16px] text-xl">
             <div className="flex flex-row items-center justify-center">
               <b className="relative">
-                NÃO compramos matéria-prima de fornecedores envolvidos em:
+              {t(`texts.text9`)}
               </b>
             </div>
             <div className="overflow-hidden flex flex-row items-center justify-start gap-[32px] text-[14.11px]">
@@ -182,7 +173,7 @@ const HomeBr: FunctionComponent = () => {
                   alt=""
                   src="/group25.svg"
                 />
-                <div className="relative font-medium">Desmatamento</div>
+                <div className="relative font-medium text-center">{t(`texts.icone1`)}</div>
               </div>
               <div className="flex flex-col items-center justify-start gap-[4px]">
                 <img
@@ -191,12 +182,7 @@ const HomeBr: FunctionComponent = () => {
                   src="/group26.svg"
                 />
                 <div className="relative w-[118px] h-[31.8px]">
-                  <div className="absolute top-[0%] left-[17.54%] font-medium">
-                    Invasão de
-                  </div>
-                  <div className="absolute top-[46.54%] left-[0%] font-medium">
-                    Terras Indígenas
-                  </div>
+                <div className="relative font-medium text-center">{t(`texts.icone2`)}</div>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-start gap-[4px]">
@@ -206,12 +192,7 @@ const HomeBr: FunctionComponent = () => {
                   src="/group27.svg"
                 />
                 <div className="relative w-[78px] h-[31.8px]">
-                  <div className="absolute top-[0%] left-[22.18%] font-medium">
-                    Terras
-                  </div>
-                  <div className="absolute top-[46.54%] left-[0%] font-medium">
-                    Protegidas
-                  </div>
+                <div className="relative font-medium text-center">{t(`texts.icone3`)}</div>
                 </div>
               </div>
               <div className="flex flex-col items-start justify-start gap-[4px]">
@@ -220,11 +201,9 @@ const HomeBr: FunctionComponent = () => {
                   alt=""
                   src="/group28.svg"
                 />
-                <img
-                  className="relative w-[89.5px] h-[30.1px]"
-                  alt=""
-                  src="/group29.svg"
-                />
+                <div className="relative w-[78px] h-[31.8px]">
+                <div className="relative font-medium text-center">{t(`texts.icone4`)}</div>
+                </div>
               </div>
               <div className="flex flex-col items-center justify-start gap-[4px]">
                 <img
@@ -233,12 +212,9 @@ const HomeBr: FunctionComponent = () => {
                   src="/group30.svg"
                 />
                 <div className="relative w-[125px] h-[31.8px]">
-                  <div className="absolute top-[0%] left-[0%] font-medium">
-                    Trabalho Forçado
-                  </div>
-                  <div className="absolute top-[46.54%] left-[20.8%] font-medium">
-                    ou Infantil
-                  </div>
+              
+                <div className="relative font-medium text-center">{t(`texts.icone5`)}</div>
+              
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center gap-[4px]">
@@ -248,12 +224,7 @@ const HomeBr: FunctionComponent = () => {
                   src="/group31.svg"
                 />
                 <div className="relative w-[132px] h-[31.8px]">
-                  <div className="absolute top-[0%] left-[9.24%] font-medium">
-                    Desrespeito ao
-                  </div>
-                  <div className="absolute top-[46.54%] left-[0%] font-medium">
-                    Bem-Estar Animal
-                  </div>
+                <div className="relative font-medium text-center">{t(`texts.icone6`)}</div>
                 </div>
               </div>
             </div>
@@ -261,15 +232,13 @@ const HomeBr: FunctionComponent = () => {
         </div>
         <div className="self-stretch overflow-hidden flex flex-col items-center justify-center pt-0 px-0 pb-14 gap-[48px] text-23xl">
           <b className="relative">
-            ENTENDA O CICLO DA NOSSA RASTREABILIDADE COMPLETA
+          {t(`texts.text10`)}
           </b>
-          <div className="relative w-[896px] h-[53px] text-3xl">
-            <div className="absolute top-[0%] left-[0%] font-medium">{`Nosso sistema de rastreio permite acompanhar a matéria-prima desde a origem `}</div>
-            <div className="absolute top-[49.06%] left-[4.25%] font-medium">
-              até a entrega do produto final ao cliente e funciona nas seguintes
-              etapas:
+          <div className="relative w-[896px] h-[53px] text-3xl items-center justify-center ">
+            <div className="absolute top-[0%] left-[0%] font-medium items-center justify-center text-center w-[1000px]">
+            {t(`texts.text11`)}
             </div>
-          </div>
+            </div>
         </div>
         <div className="self-stretch overflow-hidden flex flex-col items-center justify-center text-[42.14px] text-gold font-cabin">
           <div className="relative w-[1303.4px] h-[353.8px]">
@@ -373,42 +342,28 @@ const HomeBr: FunctionComponent = () => {
             />
           </div>
         </div>
-        <div className="self-stretch overflow-hidden flex flex-row items-center justify-center pt-14 px-[264px] pb-0 gap-[96px] text-8xl">
+        <div className="self-stretch overflow-hidden flex flex-row items-start justify-center pt-14 px-[264px] pb-0 gap-[96px] text-8xl">
           <div className="w-[640px] overflow-hidden shrink-0 flex flex-col items-start justify-start">
             <div className="flex flex-row items-center justify-center text-yellowgreen">
               <b className="relative leading-[29px]">
-                1. ORIGINAÇÃO RESPONSÁVEL INDIVIDUAL
+              {t(`texts.text12`)}
               </b>
             </div>
             <div className="w-[635.7px] flex flex-col items-center justify-center text-lg">
               <div className="relative leading-[29px] font-medium inline-block w-[635.7px]">
-                Os animais recebem, desde a fazenda de nascimento, uma
-                identificação única através de brinco e bottom eletrônico e são
-                certificados com o protocolo do Programa de Rastreabilidade
-                Individual e Monitoramento de Indiretos – PRIMI, criado pela
-                NicePlanet e SBCert, garantindo as informações das fazendas com
-                o registro individual único de cada animal, monitoramento de
-                todas as movimentações de animais certificados entre as
-                fazendas, além da conformidade socioambiental das fazendas
-                envolvidas até a chegada dos animais certificados ao
-                frigorífico.
+              {t(`texts.text13`)}
               </div>
             </div>
             <div className="flex flex-row items-center justify-center pt-12 px-0 pb-0 text-darkslateblue">
               <b className="relative leading-[29px]">
-                2. COMPLIANCE SOCIOAMBIENTAL
+              {t(`texts.text14`)}
               </b>
             </div>
-            <div className="w-[653px] flex flex-col items-center justify-center text-lg">
-              <div className="relative leading-[29px] font-medium whitespace-pre-wrap inline-block w-[653px]">
+            <div className=" flex flex-col items-center justify-center text-lg">
+              <div className="relative leading-[29px] font-medium whitespace-pre-wrap inline-block ">
                 <p className="m-0">{`O frigorífico fornecedor também realiza as análises socioambientais das fazendas diretas e indiretas certificadas, e adquire animais somente de fazendas em compliance com os critérios definidos.  Entrega à Durlicouros o couro verde com uma etiqueta `}</p>
                 <p className="m-0">
-                  identificadora, que via sistema computacional traz todos os
-                  documentos que atestam a origem em conformidade socioambiental
-                  da matéria-prima (Fazenda) e as características de cada
-                  animal, tudo em ambiente virtual que utiliza a tecnologia
-                  blockchain, garantindo a credibilidade e integridade de todas
-                  as informações.
+                {t(`texts.text15`)}
                 </p>
               </div>
             </div>
@@ -416,31 +371,32 @@ const HomeBr: FunctionComponent = () => {
           <div className="w-[632px] overflow-hidden shrink-0 flex flex-col items-start justify-start">
             <div className="flex flex-row items-center justify-center">
               <b className="relative leading-[29px]">
-                3. IDENTIFICAÇÃO COURO A COURO
+              {t(`texts.text16`)}
               </b>
             </div>
             <div className="w-[627.9px] flex flex-col items-center justify-center text-lg">
-              <div className="relative leading-[29px] font-medium inline-block w-[627.9px]">{`Na Durlicouros, cada couro acompanhado de suas informações recebe um código alfanumérico único formado por 8 caracteres marcados a laser nas bordas da parte dianteira do couro para identificação até o final do processo de produção. `}</div>
+              <div className="relative leading-[29px] font-medium inline-block w-[627.9px]">
+                {t(`texts.text17`)}
+              </div>
             </div>
             <div className="w-[627.9px] flex flex-row items-center justify-center pt-12 px-0 pb-0 box-border text-gold">
               <b className="relative leading-[29px] inline-block w-[627.9px] shrink-0">
-                4. DADOS DE ORIGEM, PRODUÇÃO E COMPOSIÇÃO DE CADA PALLET
+              {t(`texts.text18`)}
               </b>
             </div>
             <div className="w-[627.9px] flex flex-col items-center justify-center text-lg">
-              <div className="relative leading-[29px] font-medium inline-block w-[627.9px]">{`Leitores inteligentes leem os códigos marcados em cada couro que formam os pallets, gerando um QR Code para cada um deles, reunindo todas as informações de sua composição, couro a couro, com dados dos respectivos animais, origem da fazenda, frigorífico, processos no curtume, com rastreabilidade do início ao fim e dados de conformidade socioambiental. `}</div>
+              <div className="relative leading-[29px] font-medium inline-block w-[627.9px]">
+                {t(`texts.text19`)}
+              </div>
             </div>
             <div className="flex flex-row items-center justify-center pt-12 px-0 pb-0 text-orangered">
               <b className="relative leading-[29px]">
-                5. TRANSPARÊNCIA DE PONTA A PONTA
+              {t(`texts.text20`)}
               </b>
             </div>
             <div className="w-[665px] flex flex-col items-start justify-start text-lg">
               <div className="relative leading-[29px] font-medium inline-block w-[632px]">
-                O cliente final tem acesso ao UniCode de cada couro e ao número
-                da Invoice e pode acessar todas as informações. Dessa forma
-                consegue identificar a origem do couro que comprou e a
-                transparência de todos os nossos processos.
+              {t(`texts.text21`)}
               </div>
             </div>
           </div>
@@ -462,8 +418,8 @@ const HomeBr: FunctionComponent = () => {
               alt=""
               src="/group2.svg"
             />
-            <div className="absolute top-[93.05%] left-[53.3%]">
-              Rastreabilidade
+            <div className="absolute top-[93.05%] left-[52%] text-center w-[200px]">
+            {t(`texts.chart6`)}
             </div>
             <img
               className="absolute h-[22.76%] w-[6.19%] top-[32.44%] right-[76.54%] bottom-[44.8%] left-[17.28%] max-w-full overflow-hidden max-h-full"
@@ -502,31 +458,26 @@ const HomeBr: FunctionComponent = () => {
             />
             <div className="absolute h-[69.49%] w-full top-[0%] right-[0%] bottom-[30.51%] left-[0%]">
               <div className="absolute h-[17.06%] w-[11.54%] top-[0%] right-[57.02%] bottom-[82.94%] left-[31.44%]">
-                <div className="absolute top-[0%] left-[37.13%]">Geo</div>
-                <div className="absolute top-[41.39%] left-[0%]">
-                  Monitoramento
+                <div className="absolute top-[0%] left-[0%] text-center">
+                {t(`texts.chart1`)}
                 </div>
               </div>
-              <div className="absolute top-[81.84%] left-[32.17%]">
-                Frigorífico
+              <div className="absolute top-[81.84%] left-[26%] w-[300px] text-center">
+              {t(`texts.chart4`)}
               </div>
-              <img
-                className="absolute h-[16.09%] w-[6.09%] top-[83.91%] right-[93.91%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
-                alt=""
-                src="/group10.svg"
-              />
-              <img
-                className="absolute h-[16.09%] w-[6.09%] top-[83.91%] right-[79.82%] bottom-[0%] left-[14.09%] max-w-full overflow-hidden max-h-full"
-                alt=""
-                src="/group11.svg"
-              />
-              <div className="absolute top-[80.53%] left-[55.82%]">Curtume</div>
-              <div className="absolute top-[80.53%] left-[94.76%]">Cliente</div>
+              <div className="absolute h-[26.09%] w-[6.09%] top-[83.91%] right-[93.91%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full">
+              {t(`texts.chart2`)}
+              </div>
+              <div className="absolute h-[26.09%] w-[6.09%] top-[83.91%] right-[79.82%] bottom-[0%] left-[14.09%] max-w-full overflow-hidden max-h-full">
+              {t(`texts.chart3`)}
+              </div>
+            
+            
+              <div className="absolute top-[80.53%] left-[55.82%]">{t(`texts.chart5`)}</div>
+              <div className="absolute top-[83.53%] left-[93.7%] text-center w-[110px]">{t(`texts.chart7`)}</div>
               <div className="absolute h-[17.06%] w-[11.54%] top-[0%] right-[75.91%] bottom-[82.94%] left-[12.55%]">
-                <div className="absolute top-[0%] left-[37.13%]">Geo</div>
-                <div className="absolute top-[41.39%] left-[0%]">
-                  Monitoramento
-                </div>
+                <div className="absolute top-[0%] left-[0%] text-center"> {t(`texts.chart1`)}</div>
+              
               </div>
             </div>
             <img
@@ -576,43 +527,27 @@ const HomeBr: FunctionComponent = () => {
           alt=""
           src="/rectangle1@2x.png"
         />
-        <div className="relative leading-[32px]">
-          <p className="m-0 font-medium">{`Com esse processo, garantimos que todos os produtos Durlicouros estejam em conformidade `}</p>
-          <p className="m-0">
-            <span className="font-medium">{`com a `}</span>
-            <b className="font-montserrat">{`nossa Política de Compra Responsável de Matéria Prima, às exigências da certificação `}</b>
-          </p>
-          <p className="m-0">
-            <b className="font-montserrat">LWG</b>
-            <span className="font-medium">
-              , e atendendo às demandas crescentes dos mercados mais exigentes.
-            </span>
-          </p>
+        <div className="relative leading-[32px] w-[980px]">
+          <p className="m-0 font-medium">{t(`texts.text22`)}<b className="font-montserrat">{t(`texts.text23`)}</b> <span className="font-medium">
+            {t(`texts.text24`)}
+            </span></p>
+        
+        
           <p className="m-0 font-medium">&nbsp;</p>
-          <p className="m-0 font-medium">{`Todo este cuidado e responsabilidade com as questões sociais e ambientais em nossas `}</p>
-          <p className="m-0">
-            <span className="font-medium">{`operações, além de todas as garantias de uma originação responsável de matéria prima, `}</span>
-            <b className="font-montserrat">{`agrega `}</b>
+          <p className="m-0 font-medium">{t(`texts.text25`)}<b className="font-montserrat">
+           {t(`texts.text26`)}
+           
+          </b>
+          <span className="font-medium">{t(`texts.text27`)}</span>
           </p>
-          <p className="m-0">
-            <b className="font-montserrat">
-              valor para nossos clientes dos setores automobilístico, de
-              mobiliário, calçados e artefatos
-            </b>
-            <span className="font-medium">{`, `}</span>
-          </p>
-          <p className="m-0 font-medium">{`que terão a garantia de comercializar couros de qualidade produzidos com responsabilidade e `}</p>
-          <p className="m-0 font-medium">
-            conformidade socioambiental em mercados como a Ásia, Europa e
-            Estados Unidos.
-          </p>
+         
+       
+       
+      
           <p className="m-0 font-medium">&nbsp;</p>
           <p className="m-0">
-            <span className="font-medium">{`São empresas que poderão `}</span>
-            <b>{`estampar em suas marcas o mérito de serem `}</b>
-          </p>
-          <p className="m-0">
-            <b>socioambientalmente corretas.</b>
+            <span className="font-medium">{t(`texts.text28`)}</span>
+            <b> {t(`texts.text29`)}</b>
           </p>
         </div>
       </div>
@@ -623,7 +558,7 @@ const HomeBr: FunctionComponent = () => {
           src="/group40.svg"
         />
         <div className="relative font-medium">
-          Copyright ©2023 Durlicouros. Todos os Direitos Reservados.
+        {t(`texts.text30`)}
         </div>
       </div>
     </div>
