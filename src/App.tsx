@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import HomeBr from "./pages/HomeBr";
+import './i18n';
 
 function App() {
   const action = useNavigationType();

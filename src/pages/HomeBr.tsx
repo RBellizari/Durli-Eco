@@ -1,6 +1,17 @@
 import { FunctionComponent } from "react";
+import { useTranslation } from 'react-i18next';
+import React, { useState } from 'react';
+
 
 const HomeBr: FunctionComponent = () => {
+  const { t, i18n } = useTranslation();
+  const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
+
+  const toggleLanguage = () => {
+    const newLanguage = currentLanguage === 'pt' ? 'en' : 'pt';
+    setCurrentLanguage(newLanguage);
+    i18n.changeLanguage(newLanguage);
+  };
   return (
     <div className="relative bg-white-200 w-full overflow-hidden flex flex-col items-start justify-start text-left text-lg text-gray-200 font-montserrat">
       <div className="bg-white-200 w-[1920px] h-[1257px] overflow-hidden shrink-0 flex flex-col items-start justify-start relative">
@@ -30,34 +41,22 @@ const HomeBr: FunctionComponent = () => {
           <div className="flex flex-row items-center justify-center">
             <div className="relative font-medium inline-block w-[940px] shrink-0">
               <p className="m-0">
-                Com mais de 60 anos de atuação, operamos na Durlicouros com 9
-                unidades industriais certificadas LWG Gold. Utilizamos um
-                sistema pioneiro de rastreabilidade individual, monitorando cada
-                peça de couro desde sua origem.
+              {t(`texts.text1`)}
               </p>
               <p className="m-0">&nbsp;</p>
               <p className="m-0">
-                Desde 2010, implantamos um sistema de geomonitoramento, que
-                supervisiona e verifica diariamente com imagens de satélite o
-                cumprimento de critérios socioambientais pelos frigoríficos
-                fornecedores e fazendas diretas e indiretas, garantindo uma
-                originação responsável de matéria-prima.
+              {t(`texts.text2`)}
               </p>
               <p className="m-0">&nbsp;</p>
               <p className="m-0">
-                Aliando o sistema de geomonitoramento à rastreabilidade
-                individual de produto através de um código alfanumérico único
-                marcado couro a couro, garantimos que o cliente final somente
-                compre couros de áreas social e ambientalmente legais.
+              {t(`texts.text3`)}
               </p>
             </div>
           </div>
         </div>
-        <div className="my-0 mx-[!important] absolute top-[680.9px] left-[1174.2px] flex flex-row items-start justify-start z-[3] text-[45px] text-steelblue-200">
+        <div className="my-0 mx-[!important] absolute top-[680.9px] left-[1174.2px] flex flex-row items-start justify-start z-[3] text-[45px] text-steelblue-200 w-[450px]">
           <b className="relative leading-[48px]">
-            <p className="m-0">Rastreabilidade e</p>
-            <p className="m-0">Conformidade Total</p>
-            <p className="m-0">Durlicouros</p>
+            <p className="m-0">{t(`texts.text4`)}</p>
           </b>
         </div>
         <div className="my-0 mx-[!important] absolute top-[86px] left-[164px] bg-white-200 overflow-hidden flex flex-row items-start justify-start gap-[48px] z-[4]">
@@ -129,38 +128,23 @@ const HomeBr: FunctionComponent = () => {
           </button>
           <div className="overflow-hidden flex flex-row items-start justify-start py-0 pr-0 pl-8 gap-[16px]">
             <div className="overflow-hidden flex flex-col items-center justify-center">
+              <button onClick={toggleLanguage} className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[56.5px] h-[56.5px]">
+                <img
+                  className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
+                  alt=""
+                  src={currentLanguage === 'en' ? '/pt.svg' : '/en.svg'}
+                />
+              </button>
+            </div>
+            {/* <div className="overflow-hidden flex flex-col items-center justify-center">
               <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[56.5px] h-[56.5px]">
                 <img
                   className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt=""
-                  src="/vector11.svg"
-                />
-                <img
-                  className="absolute h-[99.29%] w-[98.58%] top-[0.53%] right-[0%] bottom-[0.18%] left-[1.42%] max-w-full overflow-hidden max-h-full"
-                  alt=""
-                  src="/vector12.svg"
-                />
-                <img
-                  className="absolute h-[53.98%] w-[57.52%] top-[0.18%] right-[42.48%] bottom-[45.84%] left-[0%] max-w-full overflow-hidden max-h-full"
-                  alt=""
-                  src="/vector13.svg"
+                  src="/ch.svg"
                 />
               </button>
-            </div>
-            <div className="overflow-hidden flex flex-col items-center justify-center">
-              <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[56.5px] h-[56.5px]">
-                <img
-                  className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
-                  alt=""
-                  src="/vector14.svg"
-                />
-                <img
-                  className="absolute h-[35.22%] w-[42.12%] top-[14.34%] right-[43.01%] bottom-[50.44%] left-[14.87%] max-w-full overflow-hidden max-h-full"
-                  alt=""
-                  src="/group39.svg"
-                />
-              </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
