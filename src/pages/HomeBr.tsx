@@ -102,27 +102,8 @@ const HomeBr: FunctionComponent = () => {
             </div>
           </div>
          </div>
-        <div className="my-0 mx-[!important] absolute top-[62px] left-[957px] overflow-hidden flex flex-row items-start justify-start gap-[16px] z-[6]">
-          <button className="cursor-pointer [border:none] p-4 bg-[transparent] rounded-smi w-36 h-[52px] flex flex-row items-center justify-center box-border">
-            <div className="relative text-[23.59px] font-medium font-montserrat text-white-200 text-left">
-              Menu
-            </div>
-          </button>
-          <button className="cursor-pointer [border:none] p-4 bg-[transparent] rounded-smi w-36 h-[52px] flex flex-row items-center justify-center box-border">
-            <div className="relative text-[23.59px] font-medium font-montserrat text-white-200 text-left">
-              Menu
-            </div>
-          </button>
-          <button className="cursor-pointer [border:none] p-4 bg-[transparent] rounded-smi w-36 h-[52px] flex flex-row items-center justify-center box-border">
-            <div className="relative text-[23.59px] font-medium font-montserrat text-white-200 text-left">
-              Menu
-            </div>
-          </button>
-          <button className="cursor-pointer [border:none] p-4 bg-[transparent] rounded-smi w-36 h-[52px] flex flex-row items-center justify-center box-border">
-            <div className="relative text-[23.59px] font-medium font-montserrat text-white-200 text-left">
-              Menu
-            </div>
-          </button>
+        <div className="my-0 mx-[!important] absolute top-[62px] left-[700px] overflow-hidden flex flex-row items-start justify-start gap-[16px] z-[6]">
+        
           <div className="overflow-hidden flex flex-row items-start justify-start py-0 pr-0 pl-8 gap-[16px]">
             <div className="overflow-hidden flex flex-col items-center justify-center">
               <button onClick={toggleLanguage} className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[56.5px] h-[56.5px]">
