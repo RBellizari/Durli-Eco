@@ -35,6 +35,7 @@ module.exports = {
       "lg-5": "18.5px",
       "7xl-3": "26.3px",
       lg: "18px",
+      sm: "13px",
       "8xl": "27px",
       "23xl-1": "42.1px",
       "xl-8": "20.8px",
@@ -48,6 +49,13 @@ module.exports = {
       "4xl": "23px",
       "base-5": "16.5px",
       inherit: "inherit",
+    },
+    screens: {
+      sm: "640px",  // Pequenas telas, como telefones
+      md: "768px",  // Telas médias, como tablets
+      lg: "1024px", // Telas grandes, como laptops
+      xl: "1280px", // Telas extra grandes, como desktops
+      '2xl': "1440px", // Tela 2xl, largura personalizada
     },
   },
   corePlugins: {
