@@ -124,12 +124,12 @@ const HomeBr: FunctionComponent = () => {
             <div className="overflow-hidden flex flex-col items-center justify-center">
             <button
         onClick={() => toggleLanguage('pt')}
-        className="cursor-pointer [border:none] p-0 bg-[transparent] relative md:w-[56.5px] md:h-[56.5px] w-[25px] h-[25px]"
+        className="cursor-pointer [border:none] p-0 bg-[transparent] relative md:w-[64.03px] md:h-[64.03px] w-[32.01px] h-[32.01px]"
       >
         <img
           className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src={currentLanguage === 'en' ? '/pt.svg' : '/pt.svg'}
+          src={currentLanguage === 'en' ? '/pt.svg' : '/pt-selected.svg'}
         />
       </button>
 
@@ -138,12 +138,12 @@ const HomeBr: FunctionComponent = () => {
        <div className="overflow-hidden flex flex-col items-center justify-center">
        <button
         onClick={() => toggleLanguage('en')}
-        className="cursor-pointer [border:none] p-0 bg-[transparent] relative md:w-[56.5px] md:h-[56.5px] w-[25px] h-[25px]"
+        className="cursor-pointer [border:none] p-0 bg-[transparent] relative md:w-[64.03px] md:h-[64.03px] w-[32.01px] h-[32.01px]"
       >
         <img
           className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src={currentLanguage === 'en' ? '/en.svg' : '/en.svg'}
+          src={currentLanguage === 'en' ? '/en-selected.svg' : '/en.svg'}
         />
       </button>
             </div>
