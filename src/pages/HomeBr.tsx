@@ -120,7 +120,7 @@ const HomeBr: FunctionComponent = () => {
          </div>
         <div className="my-0 mx-[!important] absolute top-[16px] left-[270px] md:top-[62px] md:left-[700px] overflow-hidden flex flex-row items-start justify-start gap-[16px] z-[6]">
         
-          <div className="overflow-hidden flex flex-row items-start justify-start py-0 pr-0 pl-8 gap-[16px]">
+          <div className="overflow-hidden flex flex-row items-start justify-start py-0 pr-0 pl-0 gap-[16px]">
             <div className="overflow-hidden flex flex-col items-center justify-center">
             <button
         onClick={() => toggleLanguage('pt')}
@@ -158,7 +158,7 @@ const HomeBr: FunctionComponent = () => {
           src="/group35@2x.png"
         />
        
-        <div className="my-0 mx-[!important] absolute top-[330px] left-[160px] flex flex-row items-start justify-start z-[3] md:text-[45px] text-[19px] text-steelblue-200 md:w-[450px] w-[210px]">
+        <div className="my-0 mx-[!important] absolute top-[330px] left-[150px] flex flex-row items-start justify-start z-[3] md:text-[45px] text-[19px] text-steelblue-200 md:w-[450px] w-[210px]">
           <b className="relative md:leading-[48px] leading-[20px]">
             <p className="m-0">{t(`texts.text4`)}</p>
           </b>
