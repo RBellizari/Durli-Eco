@@ -91,7 +91,7 @@ const HomeBr: FunctionComponent = () => {
             />
           </div>
         </div>
-        <div className="hidden md:inline-flex my-0 mx-[!important] absolute top-[460px] left-[164px] overflow-hidden flex flex-col items-start justify-start gap-[16px] z-[5] text-[16.52px]">
+        <div className="hidden md:inline-flex my-0 mx-[!important] absolute top-[360px] left-[164px] overflow-hidden flex flex-col items-start justify-start gap-[16px] z-[5] text-[16.52px]">
           <div className="flex flex-row items-center justify-center text-[50px] text-steelblue-100">
             <b className="relative">UniCode</b>
           </div>
@@ -116,6 +116,16 @@ const HomeBr: FunctionComponent = () => {
             <div className="flex-1 relative leading-[25px] font-medium">
             {t(`texts.text6`)}
             </div>
+          </div>
+          <div className="w-[568px] flex flex-col items-start justify-center">
+            <div className="flex-1 relative leading-[25px] font-medium md:pb-6">
+            {t(`texts.text31`)}
+            </div>
+            <div className="font-medium font-montserrat text-[22.95px] bg-[transparent] rounded-[13px] box-border w-[236px] h-[58px] flex flex-col items-center justify-start p-4 border-[1px] border-solid border-darkslateblue">
+  726071
+</div>
+
+
           </div>
          </div>
         <div className="my-0 mx-[!important] absolute top-[16px] left-[270px] md:top-[62px] md:left-[700px] overflow-hidden flex flex-row items-start justify-start gap-[16px] z-[6]">
