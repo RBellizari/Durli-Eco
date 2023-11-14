@@ -32,7 +32,7 @@ const HomeBr: FunctionComponent = () => {
 
 
     
-      <div className="bg-white-200 overflow-hidden shrink-0 flex flex-col items-start justify-start relative  md:w-[1923px] md:h-[1258px] w-[100%] h-[250px] inset-0 bg-no-repeat bg-cover" style={{ backgroundImage: shouldShowBackground
+      <div className="bg-white-200 overflow-hidden shrink-0 flex flex-col items-start justify-start relative  md:w-[1923px] md:h-[1256px] w-[100%] h-[250px] inset-0 bg-no-repeat bg-cover" style={{ backgroundImage: shouldShowBackground
           ? 'url("/back-header.png")'
           : 'none', }}>
        
@@ -231,7 +231,7 @@ const HomeBr: FunctionComponent = () => {
               </b>
             </div>
             
-            <div className="my-0 mx-[!important] flex flex-wrap items-center justify-center gap-[32px] text-[14.11px] pl-8 pr-8">
+            <div className="my-0 mx-[!important] flex flex-wrap items-center md:items-start justify-center gap-[32px] text-[14.11px] pl-8 pr-8">
   <div className="flex flex-col items-center justify-start w-[85.5px] gap-[4px]">
     <img
       className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
@@ -240,13 +240,13 @@ const HomeBr: FunctionComponent = () => {
     />
     <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone1`)}</div>
   </div>
-  <div className="flex flex-col items-center justify-start w-[85.5px] gap-[4px]">
+  <div className="flex flex-col items-center justify-start w-[120px] gap-[4px]">
     <img
       className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
       alt=""
       src="/group26.svg"
     />
-    <div className="relative w-[102px]">
+    <div className="relative w-[102px] md:w-[120px]">
       <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone2`)}</div>
     </div>
   </div>
@@ -270,23 +270,23 @@ const HomeBr: FunctionComponent = () => {
       <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone4`)}</div>
     </div>
   </div>
-  <div className="flex flex-col items-center justify-start w-[85.5px] gap-[4px]">
+  <div className="flex flex-col items-center justify-start w-[130px] gap-[4px]">
     <img
       className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
       alt=""
       src="/group30.svg"
     />
-    <div className="relative w-[102px]">
+    <div className="relative w-[102px] md:w-[130px]">
       <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone5`)}</div>
     </div>
   </div>
-  <div className="flex flex-col items-center justify-center w-[85.5px] gap-[4px]">
+  <div className="flex flex-col items-center justify-center w-[140px] gap-[4px]">
     <img
       className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
       alt=""
       src="/group31.svg"
     />
-    <div className="relative w-[102px]">
+    <div className="relative w-[102px] md:w-[140px]">
       <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone6`)}</div>
     </div>
   </div>
