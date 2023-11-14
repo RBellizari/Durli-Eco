@@ -210,7 +210,7 @@ const HomeBr: FunctionComponent = () => {
 
       
       <div className="[background:linear-gradient(0deg,_#005693,_#0072b2_27%,_#008acc_55%,_#0098dc_80%,_#009ee2)] w-[100%] flex flex-col items-center justify-center text-16xl text-white-200">
-        <div className="self-stretch md:self-center overflow-hidden flex md:flex-row flex-col items-center justify-center pt-16 px-0 md:pb-40 pb-24 md:gap-[160px] gap-[32px]">
+        <div className="self-stretch md:self-center overflow-hidden flex md:flex-row flex-col items-center justify-center pt-16 px-0 md:pb-40 pb-12 xl:gap-[160px] gap-[32px]">
           <div className="flex flex-col items-start justify-start gap-[32px]">
             <div className="flex flex-row items-center justify-center md:w-[500px] w-[100%] pl-8 pr-8 md:pl-0 md:pr-0">
               <b className="relative text-[22px] leading-[27px] md:text-[35px] md:leading-[43px]">
@@ -231,66 +231,68 @@ const HomeBr: FunctionComponent = () => {
               </b>
             </div>
             
-            <div className="my-0 mx-[!important] flex flex-wrap items-center md:items-start justify-center gap-[32px] text-[14.11px] pl-8 pr-8">
-  <div className="flex flex-col items-center justify-start w-[85.5px] gap-[4px]">
+          <div className="flex flex-wrap items-start justify-center gap-4 text-sm md:text-base pl-8 pr-8 xl:pl-0 xl:pr-8">
+  {/* Item 1 */}
+  <div className="flex flex-col items-center justify-start w-24 md:w-48 lg:w-56 xl:w-32 gap-2">
     <img
-      className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
+      className="w-16 md:w-20 lg:w-20 xl:w-20 h-16 md:h-20 lg:h-20 xl:h-20"
       alt=""
       src="/group25.svg"
     />
-    <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone1`)}</div>
+    <div className="font-medium text-center text-[10px] xl:text-[13px]">{t(`texts.icone1`)}</div>
   </div>
-  <div className="flex flex-col items-center justify-start w-[120px] gap-[4px]">
+
+  {/* Item 2 */}
+  <div className="flex flex-col items-center justify-start w-24 md:w-48 lg:w-56 xl:w-32 gap-2">
     <img
-      className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
+      className="w-16 md:w-20 lg:w-20 xl:w-20 h-16 md:h-20 lg:h-20 xl:h-20"
       alt=""
       src="/group26.svg"
     />
-    <div className="relative w-[102px] md:w-[120px]">
-      <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone2`)}</div>
-    </div>
+    <div className="font-medium text-center text-[10px] xl:text-[13px]">{t(`texts.icone2`)}</div>
   </div>
-  <div className="flex flex-col items-center justify-start w-[85.5px] gap-[4px]">
+
+  {/* Item 3 */}
+  <div className="flex flex-col items-center justify-start w-20 md:w-48 lg:w-56 xl:w-24 gap-2">
     <img
-      className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
+      className="w-16 md:w-20 lg:w-20 xl:w-20 h-16 md:h-20 lg:h-20 xl:h-20"
       alt=""
       src="/group27.svg"
     />
-    <div className="relative">
-      <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone3`)}</div>
-    </div>
+    <div className="font-medium text-center text-[10px] xl:text-[13px]">{t(`texts.icone3`)}</div>
   </div>
-  <div className="flex flex-col items-center justify-start w-[85.5px] gap-[4px]">
+
+  {/* Item 4 */}
+  <div className="flex flex-col items-center justify-start w-20 md:w-48 lg:w-56 xl:w-24 gap-2">
     <img
-      className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
+      className="w-16 md:w-20 lg:w-20 xl:w-20 h-16 md:h-20 lg:h-20 xl:h-20"
       alt=""
       src="/group28.svg"
     />
-    <div className="relative">
-      <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone4`)}</div>
-    </div>
+    <div className="font-medium text-center text-[10px] xl:text-[13px]">{t(`texts.icone4`)}</div>
   </div>
-  <div className="flex flex-col items-center justify-start w-[130px] gap-[4px]">
+
+  {/* Item 5 */}
+  <div className="flex flex-col items-center justify-start w-24 md:w-48 lg:w-56 xl:w-32 gap-2">
     <img
-      className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
+      className="w-16 md:w-20 lg:w-20 xl:w-20 h-16 md:h-20 lg:h-20 xl:h-20"
       alt=""
       src="/group30.svg"
     />
-    <div className="relative w-[102px] md:w-[130px]">
-      <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone5`)}</div>
-    </div>
+    <div className="font-medium text-center text-[10px] xl:text-[13px]">{t(`texts.icone5`)}</div>
   </div>
-  <div className="flex flex-col items-center justify-center w-[140px] gap-[4px]">
+
+  {/* Item 6 */}
+  <div className="flex flex-col items-center justify-start w-24 md:w-48 lg:w-56 xl:w-32 gap-2">
     <img
-      className="relative md:w-[89.7px] md:h-[89.7px] w-[61.8px] h-[61.8px]"
+      className="w-16 md:w-20 lg:w-20 xl:w-20 h-16 md:h-20 lg:h-20 xl:h-20"
       alt=""
       src="/group31.svg"
     />
-    <div className="relative w-[102px] md:w-[140px]">
-      <div className="relative font-medium text-center text-[10.5px] leading-[10.2px] md:text-[14.11px] md:leading-[16.94px]">{t(`texts.icone6`)}</div>
-    </div>
+    <div className="font-medium text-center text-[10px] xl:text-[13px]">{t(`texts.icone6`)}</div>
   </div>
 </div>
+
 
           </div>
         </div>
@@ -315,7 +317,7 @@ const HomeBr: FunctionComponent = () => {
             />
           </div>
         </div>
-        <div className="md:self-stretch self-auto overflow-hidden flex md:flex-row flex-col items-start justify-center pt-14 md:px-[264px] pb-0 gap-[96px] md:text-8xl text-lg">
+        <div className="md:self-stretch self-auto overflow-hidden flex md:flex-row flex-col items-start justify-center pt-14 md:px-[264px] pb-0 xl:gap-[96px] gap-[48px] md:text-8xl text-lg">
           <div className="md:w-[640px] overflow-hidden shrink-0 flex flex-col items-start justify-start pl-8 pr-8">
             <div className="flex flex-row items-center justify-center text-yellowgreen">
               <b className="relative leading-[29px]">
